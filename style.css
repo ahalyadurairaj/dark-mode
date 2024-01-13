@@ -1,0 +1,53 @@
+body{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    display: flex; justify-content: center;
+    transition: all 1s;
+}
+
+.container{
+    width: 60%;
+}
+
+#heading{
+    display: flex; justify-content: space-between;
+    align-items: center;
+}
+button{
+    height: 30px;
+    width: 90px;
+    border: none;
+    border-radius: 7px;
+    color: whitesmoke;
+    font-weight: 700;
+    background-color: rgba(219, 78, 156, 0.692);
+}
+h3 {
+    color: rgba(219, 78, 156, 0.692);
+    margin: 0;
+    padding: 10px 0px;
+}
+.content_date {
+    font-style: italic;
+    font-size: 11px;
+    margin: 0;
+}
+.content {
+    font-size: 13px;
+    font-weight: 500;
+
+}
+h2{
+    font-weight: lighter;
+}
+.btn_color {
+    color: black;
+}
+.dark_theme {
+    color: white;
+    background-color: black;
+    
+}
